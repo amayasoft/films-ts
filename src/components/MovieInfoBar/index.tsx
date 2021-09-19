@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+
 // Helpers
 import { calcTime, convertMoney } from '../../helpers';
 // Styles

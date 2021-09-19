@@ -10,6 +10,9 @@ import MovieInfo from './MovieInfo';
 import MovieInfoBar from './MovieInfoBar';
 import Actor from './Actor'
 
+
+import  { Cast}  from '../API';
+
 // Hook
 import { useMovieFetch, MovieState } from '../hooks/useMovieFetch' ;
 // Image

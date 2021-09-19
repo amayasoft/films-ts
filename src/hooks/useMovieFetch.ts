@@ -1,7 +1,7 @@
 import {useState, useEffect,} from 'react';
 
 // API
-import API , {Crew,Cast, Movie, Credits}  from '../API';
+import API , {Crew,Cast, Movie,Credits}  from '../API';
 // Helpers
 import { isPersistedState } from '../helpers';
 
