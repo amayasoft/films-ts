@@ -37,17 +37,21 @@ export const useMovieFetch = (movieId:number) => {
             setError(true);
             setLoading(false);
         }
+
+
+        
     }
 
     const sessionState = isPersistedState(movieId.toString());
     useEffect(() => {
+        const sessionState = isPersistedState(movieId.toString());
         if (sessionState) {
             setState(sessionState);
             setLoading(false);
             return;
           }
         fetchMovie(movieId);
-    }, [movieId,sessionState])
+    }, [movieId]);
 
     // Write to sessionStorage
     useEffect(() => {
