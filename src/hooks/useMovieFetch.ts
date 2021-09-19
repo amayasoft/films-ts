@@ -42,7 +42,7 @@ export const useMovieFetch = (movieId:number) => {
         
     }
 
-    const sessionState = isPersistedState(movieId.toString());
+
     useEffect(() => {
         const sessionState = isPersistedState(movieId.toString());
         if (sessionState) {
