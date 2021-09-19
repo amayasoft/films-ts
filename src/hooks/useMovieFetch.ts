@@ -1,4 +1,4 @@
-import {useState, useEffect,} from 'react';
+import {useState, useEffect} from 'react';
 
 // API
 import API , {Crew,Cast, Movie,Credits}  from '../API';
@@ -47,7 +47,7 @@ export const useMovieFetch = (movieId:number) => {
             return;
           }
         fetchMovie(movieId);
-    }, [movieId])
+    }, [movieId,sessionState])
 
     // Write to sessionStorage
     useEffect(() => {

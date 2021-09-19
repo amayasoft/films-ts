@@ -11,10 +11,8 @@ import MovieInfoBar from './MovieInfoBar';
 import Actor from './Actor'
 
 
-import  { Cast}  from '../API';
-
 // Hook
-import { useMovieFetch, MovieState } from '../hooks/useMovieFetch' ;
+import { useMovieFetch } from '../hooks/useMovieFetch' ;
 // Image
 import NoImage from '../images/no_image.jpg';
 
